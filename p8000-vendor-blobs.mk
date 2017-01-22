@@ -476,7 +476,6 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/elephone/p8000/proprietary/system/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
     vendor/elephone/p8000/proprietary/system/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
-    vendor/elephone/p8000/proprietary/system/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     vendor/elephone/p8000/proprietary/system/lib/hw/gralloc.mt6753.so:system/lib/hw/gralloc.mt6753.so \
     vendor/elephone/p8000/proprietary/system/lib64/hw/gralloc.mt6753.so:system/lib64/hw/gralloc.mt6753.so \
     vendor/elephone/p8000/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
