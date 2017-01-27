@@ -42,10 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/bin/fuelgauged:system/bin/fuelgauged \
     vendor/elephone/p8000/proprietary/system/bin/geomagneticd:system/bin/geomagneticd \
     vendor/elephone/p8000/proprietary/system/bin/gsm0710muxd:system/bin/gsm0710muxd \
-    vendor/elephone/p8000/proprietary/system/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
     vendor/elephone/p8000/proprietary/system/bin/guiext-server:system/bin/guiext-server \
-    vendor/elephone/p8000/proprietary/system/bin/hostapd:system/bin/hostapd \
-    vendor/elephone/p8000/proprietary/system/bin/hostapd_cli:system/bin/hostapd_cli \
     vendor/elephone/p8000/proprietary/system/bin/kpoc_charger:system/bin/kpoc_charger \
     vendor/elephone/p8000/proprietary/system/bin/lsm303md:system/bin/lsm303md \
     vendor/elephone/p8000/proprietary/system/bin/magd:system/bin/magd \
@@ -63,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/bin/mtk_setprop:system/bin/mtk_setprop \
     vendor/elephone/p8000/proprietary/system/bin/mtkbt:system/bin/mtkbt \
     vendor/elephone/p8000/proprietary/system/bin/mtkrild:system/bin/mtkrild \
-    vendor/elephone/p8000/proprietary/system/bin/mtkrildmd2:system/bin/mtkrildmd2 \
     vendor/elephone/p8000/proprietary/system/bin/muxreport:system/bin/muxreport \
     vendor/elephone/p8000/proprietary/system/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
     vendor/elephone/p8000/proprietary/system/bin/nvram_daemon:system/bin/nvram_daemon \
@@ -297,7 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/elephone/p8000/proprietary/system/lib/libJniAtvService.so:system/lib/libJniAtvService.so \
     vendor/elephone/p8000/proprietary/system/lib/librilmtk.so:system/lib/librilmtk.so \
-    vendor/elephone/p8000/proprietary/system/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
     vendor/elephone/p8000/proprietary/system/lib/libsbccodec.so:system/lib/libsbccodec.so \
     vendor/elephone/p8000/proprietary/system/lib/libsec.so:system/lib/libsec.so \
     vendor/elephone/p8000/proprietary/system/lib/libshowlogo.so:system/lib/libshowlogo.so \
@@ -321,9 +316,7 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
     vendor/elephone/p8000/proprietary/system/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/elephone/p8000/proprietary/system/lib/mtk-ril.so:system/lib/mtk-ril.so \
-    vendor/elephone/p8000/proprietary/system/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
     vendor/elephone/p8000/proprietary/system/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
-    vendor/elephone/p8000/proprietary/system/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
     vendor/elephone/p8000/proprietary/system/lib64/hw/audio.primary.mt6753.so:system/lib64/hw/audio.primary.mt6753.so \
     vendor/elephone/p8000/proprietary/system/lib64/hw/camera.mt6753.so:system/lib64/hw/camera.mt6753.so \
     vendor/elephone/p8000/proprietary/system/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
@@ -457,7 +450,6 @@ PRODUCT_COPY_FILES += \
     vendor/elephone/p8000/proprietary/system/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
     vendor/elephone/p8000/proprietary/system/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
     vendor/elephone/p8000/proprietary/system/lib64/librilmtk.so:system/lib64/librilmtk.so \
-    vendor/elephone/p8000/proprietary/system/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
     vendor/elephone/p8000/proprietary/system/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
     vendor/elephone/p8000/proprietary/system/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/elephone/p8000/proprietary/system/lib64/libsysutils.so:system/lib64/libsysutils.so \
